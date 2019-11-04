@@ -6,7 +6,22 @@ sp:
 spring:
   application:
     name: user-service
-    
+  
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/你的名字路径/sp-config
+          searchPaths: config
+          #username: your-username
+          #password: your-password
+  
+  
+  rabbitmq:
+    host: 192.168.213.132
+    port: 5672
+    username: admin
+    password: admin  
 server:
   port: 8101
   
