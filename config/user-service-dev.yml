@@ -11,7 +11,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/你的名字路径/sp-config
+          uri: https://github.com/xuhang0828/sp-config
           searchPaths: config
           #username: your-username
           #password: your-password
